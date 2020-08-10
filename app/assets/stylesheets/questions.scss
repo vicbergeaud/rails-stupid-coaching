@@ -1,0 +1,97 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$gray: #F4F4F4;
+
+
+#topbar {
+	margin-bottom: 30px
+}
+body {
+  background-color: white; // Using this variable
+  font: 100% Helvetica, sans-serif;
+  color: white;
+  margin-bottom: 30px
+}
+
+h2 {
+	font-size: 20px;
+	color: grey;
+	font-style: italic
+}
+
+#ask {
+	color: black;
+}
+
+.answer {
+	color: black;
+	font-weight: normal
+}
+
+.container {
+	 padding-right: 15px;
+    padding-left: 15px;
+
+    /* Et on centre */
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 40px;
+    color: black;
+    font-weight: bold
+}
+
+.card {
+	border-left: 1rem solid;
+	border-left-width: thin 10px;
+	border-left-color: grey;
+	border-top: thin grey;
+	border-bottom: thin grey;
+	border-right: thin grey;
+	margin-bottom: 5px;
+	padding-right: 30px;
+    padding-left: 30px;
+    width: 800px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f3f3f3
+}
+
+.card2 {
+	border-left: 1rem solid;
+	border-left-width: thin 10px;
+	margin-bottom: 5px;
+	padding-right: 30px;
+    padding-left: 30px;
+    border-left-color: grey;
+    border-top: thin grey;
+	border-bottom: thin grey;
+	border-right: thin grey;
+    width: 800px;
+    background-color: #faf0af;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+#link {
+	padding-right: 30px;
+    padding-left: 30px;
+}
+
+.btn {
+	background-color: blue;
+	color: white;
+	width: 50px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 6px;
+	padding-left: 6px;
+	font-weight: bold;
+}
+
+#search {
+	width: 400px;
+	padding: 6px 6px 6px 6px;
+	border-color: blue
+}
+

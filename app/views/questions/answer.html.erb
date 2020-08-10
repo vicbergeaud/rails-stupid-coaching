@@ -1,0 +1,10 @@
+<!-- app/views/pages/answer.html.erb -->
+<div class="card">
+<h2 class="answer"><%= params[:question] %></h2>
+<h2> -- You </h2>
+</div>
+<div class="card2">
+<h2 class="answer"><%= @answers %></h2>
+<h2> -- Your coach </h2>
+</div>
+<p id="link"><%= link_to "Ask a new question", ask_path %></p>
